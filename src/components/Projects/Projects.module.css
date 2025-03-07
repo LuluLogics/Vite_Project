@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 13%;
+  margin-right: 10%;
+  
+}
+
+.title {
+  font-size: 170%;
+  font-weight: bold;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: right;
+  justify-content: center;
+  gap: 8%;
+  width: 100%;
+  
+}

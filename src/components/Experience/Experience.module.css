@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 170%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.75;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    /* text-align: left; 
+    padding-left: 60px;
+    align-self: flex-start;  */
+} 
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillImageContainer {
+  width: 45px;
+  height: 45px;
+}
+
+.skillImage {
+  width: 80%;
+  height: 80%;
+  object-fit: cover; 
+}
+
+.skill p {
+    /* font-size: 20px;  */
+    margin-top: 10px; 
+    font-size: 80%;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgba(20, 50, 108, 0.7), rgba(124, 131, 145, 0.7)); /* Gradient colors */
+    -webkit-background-clip: text;
+    color: transparent;
+  }

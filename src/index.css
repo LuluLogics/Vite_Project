@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'playfair display'; /* Apply the Calligraphy font */
+}
+
+html {
+  scroll-behavior: smooth;
+}

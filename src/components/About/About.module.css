@@ -1,0 +1,108 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 170%;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 1;
+}
+
+.aboutImage {
+    width: 35%;
+    border-radius: 30%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.aboutItems{
+    color: rgb(253, 254, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aboutItem {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(
+        90deg, 
+        rgba(124, 131, 145, 0.7) 0%, 
+        rgba(20, 50, 108, 0.7) 75%, 
+        rgba(0, 0, 0, 0) 90%
+    );
+    background-position: 100% 0;
+    background-size: 500% 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.aboutItem:hover {
+    background-size: 100%, 100%;
+}
+
+.aboutItem h3 {
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.aboutItem p {
+    font-size: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.icons {
+    width: 20%;
+    padding-right: 5%;
+}
+
+

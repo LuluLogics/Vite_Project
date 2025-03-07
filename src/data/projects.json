@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Agentic Corporate Trader (ACT) System",
+    "imageSrc": "projects/Code.jpg",
+    "description": "Developed the ACT system, an AI-driven platform for corporate and government entities to manage investments in technology stocks and cryptocurrencies.",
+    "skills": ["React", "Express", "Node.js", "MongoDB", "AI Framework"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Ping Pong",
+    "imageSrc": "projects/pong2.png",
+    "description": "Developed a modern version of the classic Ping Pong game, implemented in Java and Node.js.",
+    "skills": ["Java", "Node.js"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Hotel Booking Site",
+    "imageSrc": "projects/hotel.jpg",
+    "description": "Developed a responsive and efficient hotel booking application using React, MongoDB, Node.js, and JavaScript. An elegant and efficient way of booking your next stay.",
+    "skills": ["React", "MongoDB", "Node", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "E-commerce Platform",
+    "imageSrc": "projects/batman.jpg",
+    "description": "Developed a full-stack e-commerce platform allowing users to browse products, add items to cart, and complete secure purchases.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
