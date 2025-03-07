@@ -2,19 +2,19 @@
 
 .container {
   margin-top: 76px;
-  width: 100vw;                    /* Full screen width */
+  margin-left: 13%;
+  margin-right: 10%;
   color: var(--color-text);
 }
 
 /* Section Title */
 .title {
-  font-size: 2.5vw;                 /* Responsive title */
+  font-size: 1.7rem;
   font-weight: bold;
   letter-spacing: 1.75px;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: 24px;
-  text-align: center;
 }
 
 /* Wrapper for arrows and project cards */
@@ -22,7 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;                     /* Make it full width */
   gap: 16px;
   position: relative;
 }
@@ -31,9 +30,7 @@
 .projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;   /* Ensures equal spacing */
-  width: 90vw;                      /* Full-screen width */
-  gap: 5%;
+  gap: 24px;
   transition: transform 0.4s ease-in-out;
 }
 
@@ -81,18 +78,4 @@
 
 .arrowBtn:hover {
   transform: scale(1.1);
-}
-
-/* Responsive Adjustments */
-@media (max-width: 900px) {
-  .projects {
-    flex-direction: column;         /* Stack projects on small screens */
-    align-items: center;
-  }
-  .title {
-    font-size: 1.8rem;
-  }
-  .arrowBtn {
-    font-size: 2rem;
-  }
 }
