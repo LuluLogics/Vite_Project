@@ -1,49 +1,34 @@
 @import "../../vars.css";
 
-/* Wide horizontal container (adjust size as you see fit) */
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 600px;
-  height: 300px;
-  margin: 0 auto 40px;
-  border-radius: 8px;
-  overflow: hidden;
-
-  /* Example gradient background like "Trips!" 
-     This is just an example from left (purple) to right (teal).
-     Adjust colors as desired. */
-  background: linear-gradient(90deg, #7b2ff7, #00c6fb);
+/* Outer card: black background, rounded corners, centered on page */
+.card {
+  background-color: #000;          /* Black card background */
+  width: 460px;                    /* Approx width from your reference image */
+  border-radius: 10px;            
+  margin: 0 auto 24px;            /* Center horizontally + spacing below */
+  padding: 16px;                  /* Space for text below the image */
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
-  color: #fff; /* default text color is white */
+  text-align: left;               /* Left-align text like your screenshot */
 }
 
-/* Large image: half the card’s width, full height */
+/* The main image: extends across the card’s width with slight rounding */
 .image {
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;              /* Ensure the image is cropped nicely */
+  margin-bottom: 16px;
 }
 
-/* Text area: align text centrally, with space for title/subtitle */
-.text {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* Title in bright yellow, bolder & bigger */
+/* Big, bold yellow title: “Trips!” style */
 .title {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  color: #ffd700;                 /* Bright yellow */
+  margin: 0 0 8px;
   font-weight: bold;
-  color: #ffd700; /* bright yellow */
-  margin: 0 0 12px;
 }
 
-/* Subtitle in white text (smaller) */
+/* White subtitle (smaller text) */
 .subtitle {
   font-size: 1rem;
   color: #fff;
