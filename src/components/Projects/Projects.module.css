@@ -17,24 +17,44 @@
   margin-bottom: 24px;
 }
 
-/* Wrapper for arrow buttons + the row of cards */
+/* Wrapper for arrows and project cards */
 .sliderWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px; /* space between arrows and the projects container */
+  gap: 16px;
+  position: relative;
 }
 
 /* The row that shows exactly two ProjectCards side-by-side */
 .projects {
   display: flex;
   flex-direction: row;
-  gap: 24px; /* spacing between the two cards */
+  gap: 24px; /* Spacing between two project cards */
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Slide animation (when clicking arrows) */
+.slide {
+  transform: translateX(-30px); /* Move cards slightly for effect */
+  opacity: 0;
+  animation: fadeSlide 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* Left/right arrow buttons */
 .arrowBtn {
-  font-size: 7rem;
+  font-size: 3rem;
   color: white;
   background: transparent;
   border: none;
