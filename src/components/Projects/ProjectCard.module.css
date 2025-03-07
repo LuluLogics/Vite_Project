@@ -1,102 +1,52 @@
 @import "../../vars.css";
 
-/* Container: Wide horizontal card */
+/* Wide horizontal container (adjust size as you see fit) */
 .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-
-  /* Adjust width/height as desired */
-  width: 700px;
-  min-height: 280px;
-
-  margin: 0 auto 40px;      /* Center and add spacing below */
-  border-radius: 10px;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto 40px;
+  border-radius: 8px;
   overflow: hidden;
 
-  /* Example gradient background (darkish) */
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  /* Example gradient background like "Trips!" 
+     This is just an example from left (purple) to right (teal).
+     Adjust colors as desired. */
+  background: linear-gradient(90deg, #7b2ff7, #00c6fb);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
-
-  color: #fff; /* Default text color */
+  color: #fff; /* default text color is white */
 }
 
-/* Image container: half the width, etc. */
-.imageContainer {
-  flex: 1;
-  overflow: hidden;
-}
-
+/* Large image: half the card’s width, full height */
 .image {
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Content area: place for text, skills, links */
-.content {
+/* Text area: align text centrally, with space for title/subtitle */
+.text {
   flex: 1;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  gap: 16px;
-  justify-content: center; /* center content vertically */
+  justify-content: center;
 }
 
-/* Title in bold yellow */
+/* Title in bright yellow, bolder & bigger */
 .title {
   font-size: 1.8rem;
   font-weight: bold;
   color: #ffd700; /* bright yellow */
-  margin: 0;
+  margin: 0 0 12px;
 }
 
-/* Subtitle/description in white */
+/* Subtitle in white text (smaller) */
 .subtitle {
   font-size: 1rem;
+  color: #fff;
+  margin: 0;
   line-height: 1.4;
-  margin: 0;
-  color: #fff;
-}
-
-/* Skills row */
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Individual skill pill */
-.skill {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 12px;
-  padding: 6px 12px;
-  font-size: 0.85rem;
-  color: #fff;
-}
-
-/* Links row */
-.links {
-  margin-top: auto;
-  display: flex;
-  gap: 16px;
-}
-
-/* Link button styles */
-.link {
-  text-decoration: none;
-  color: #000;
-  background-color: #ffd700;
-  padding: 8px 18px;
-  font-weight: 600;
-  border-radius: 100px;
-  transition: transform 0.2s;
-}
-
-.link:hover {
-  transform: scale(1.05);
 }
