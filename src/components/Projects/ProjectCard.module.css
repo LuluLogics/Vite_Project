@@ -1,62 +1,37 @@
 @import "../../vars.css";
 
-.container {
-  margin-top: 76px;
-  margin-left: 13%;
-  margin-right: 10%;
-  color: var(--color-text);
+/* Outer card: black background, rounded corners, centered on page */
+.card {
+  background-color: #000;          /* Black card background */
+  width: 460px;                    /* Approx width from your reference image */
+  border-radius: 10px;            
+  margin: 0 auto 24px;            /* Center horizontally + spacing below */
+  padding: 16px;                  /* Space for text below the image */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  text-align: left;               /* Left-align text like your screenshot */
 }
 
+/* The main image: extends across the card’s width with slight rounding */
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;              /* Ensure the image is cropped nicely */
+  margin-bottom: 16px;
+}
+
+/* Big, bold yellow title: “Trips!” style */
 .title {
-  font-size: 170%;
+  font-size: 1.4rem;
+  color: rgba(20, 50, 108, 0.7);                /* Bright yellow */
+  margin: 0 0 8px;
   font-weight: bold;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
-  margin-bottom: 24px;
 }
 
-.sliderWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px; /* space between arrows and cards */
-  position: relative;
-}
-
-/* Display exactly two ProjectCards side by side */
-.projects {
-  display: flex;
-  flex-direction: row;
-  gap: 24px; /* space between the two cards */
-}
-
-/* Fade-in animation class */
-.fadeEnter {
-  animation: fadeIn 0.4s ease;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Arrow button styling */
-.arrowBtn {
-  font-size: 2rem;
-  color: #ffd700; /* bright yellow arrow color */
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.arrowBtn:hover {
-  transform: scale(1.1);
+/* White subtitle (smaller text) */
+.subtitle {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+  line-height: 1.4;
 }
