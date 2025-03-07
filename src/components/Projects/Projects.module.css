@@ -2,14 +2,14 @@
 
 .container {
   margin-top: 76px;
-  color: var(--color-text);
   margin-left: 13%;
   margin-right: 10%;
+  color: var(--color-text);
 }
 
-/* Title styling (unchanged) */
+/* Section Title */
 .title {
-  font-size: 170%;
+  font-size: 1.7rem;
   font-weight: bold;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -17,33 +17,22 @@
   margin-bottom: 24px;
 }
 
-/* A wrapper for the arrows + the scrollable container */
+/* Wrapper for arrow buttons + the row of cards */
 .sliderWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px; /* space between arrow buttons and container */
-  position: relative;
+  gap: 12px; /* space between arrows and the projects container */
 }
 
-/* The horizontal scroll container for project cards */
+/* The row that shows exactly two ProjectCards side-by-side */
 .projects {
   display: flex;
   flex-direction: row;
-  /* Remove flex-wrap so they stay in one row */
-  flex-wrap: nowrap;
-  
-  /* Enable horizontal scrolling */
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-behavior: smooth; /* nice smooth scrolling effect */
-
-  /* Optionally control the container width */
-  width: 80vw;
-  gap: 8%;
+  gap: 24px; /* spacing between the two cards */
 }
 
-/* Left/Right arrow buttons */
+/* Left/right arrow buttons */
 .arrowBtn {
   font-size: 2rem;
   color: #ffd700; /* bright yellow arrow color */

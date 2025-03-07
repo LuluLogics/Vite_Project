@@ -1,48 +1,55 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import styles from "./Projects.module.css";
 
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
-  // Use a ref to reference the scrollable container
-  const scrollRef = useRef(null);
+  // We'll track which pair of projects to show
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Each arrow click will scroll left/right by this many pixels
-  const scrollAmount = 400;
-
-  const scrollLeft = () => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollLeft -= scrollAmount;
+  // Move to the previous "page" (two projects back)
+  const prevProjects = () => {
+    // Only move backward if there's room
+    if (currentIndex > 0) {
+      setCurrentIndex((prev) => prev - 2);
+    } else {
+      // Optionally wrap around to the end:
+      // setCurrentIndex(projects.length - 2);
     }
   };
 
-  const scrollRight = () => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollLeft += scrollAmount;
+  // Move to the next "page" (two projects forward)
+  const nextProjects = () => {
+    // Only move forward if there's room
+    if (currentIndex + 2 < projects.length) {
+      setCurrentIndex((prev) => prev + 2);
+    } else {
+      // Optionally wrap around to the start:
+      // setCurrentIndex(0);
     }
   };
+
+  // Slice the projects array to only show two at a time
+  const visibleProjects = projects.slice(currentIndex, currentIndex + 2);
 
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
 
       <div className={styles.sliderWrapper}>
-        {/* Left arrow */}
-        <button className={styles.arrowBtn} onClick={scrollLeft}>
-          &#8249; {/* or an icon from a library */}
+        <button className={styles.arrowBtn} onClick={prevProjects}>
+          &#8249; {/* Left arrow */}
         </button>
 
-        {/* Scrollable container holding all ProjectCards */}
-        <div className={styles.projects} ref={scrollRef}>
-          {projects.map((project, id) => (
+        <div className={styles.projects}>
+          {visibleProjects.map((project, id) => (
             <ProjectCard key={id} project={project} />
           ))}
         </div>
 
-        {/* Right arrow */}
-        <button className={styles.arrowBtn} onClick={scrollRight}>
-          &#8250;
+        <button className={styles.arrowBtn} onClick={nextProjects}>
+          &#8250; {/* Right arrow */}
         </button>
       </div>
     </section>
