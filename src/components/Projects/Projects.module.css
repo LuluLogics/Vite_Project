@@ -30,25 +30,39 @@
 .projects {
   display: flex;
   flex-direction: row;
-  gap: 24px; /* Spacing between two project cards */
+  gap: 24px;
   transition: transform 0.4s ease-in-out;
 }
 
-/* Slide animation (when clicking arrows) */
-.slide {
-  transform: translateX(-30px); /* Move cards slightly for effect */
-  opacity: 0;
-  animation: fadeSlide 0.4s ease-in-out forwards;
+/* Scroll left animation */
+.slideLeft {
+  animation: slideLeft 0.4s ease-in-out forwards;
 }
 
-@keyframes fadeSlide {
+@keyframes slideLeft {
   0% {
-    opacity: 0;
-    transform: translateX(30px);
+    transform: translateX(-50px);
+    opacity: 0.5;
   }
   100% {
-    opacity: 1;
     transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Scroll right animation */
+.slideRight {
+  animation: slideRight 0.4s ease-in-out forwards;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(50px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
