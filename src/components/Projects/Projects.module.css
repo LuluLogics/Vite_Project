@@ -1,29 +1,84 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 13%;
-  margin-right: 10%;
-  
+  /* Wide horizontal card layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 700px;
+  height: 350px;
+  border-radius: 10px;
+
+  /* Example gradient background */
+  background: linear-gradient(120deg, #0f2027, #203a43 50%, #2c5364);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+
+  margin: 0 auto 40px; /* center horizontally + some bottom spacing */
+  color: #ffffff;      /* default text color */
+}
+
+.image {
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px; /* round left side only */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 55%;
 }
 
 .title {
-  font-size: 170%;
+  font-size: 1.8rem;
   font-weight: bold;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
+  color: #ffd700; /* bright yellow for the title */
+  margin-bottom: 10px;
 }
 
-.projects {
-  margin-top: 37px;
+.subtitle {
+  font-size: 1.1rem;
+  color: #fff; 
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.skills {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: right;
-  justify-content: center;
-  gap: 8%;
-  width: 100%;
-  
+  gap: 8px;
+  list-style: none;
+  margin-bottom: 18px;
+  padding-left: 0; /* remove default list padding */
+}
+
+.skill {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.links {
+  margin-top: auto;
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  background-color: #ffd700;
+  padding: 8px 18px;
+  border-radius: 100px;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+.link:hover {
+  transform: scale(1.05);
 }

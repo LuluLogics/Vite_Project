@@ -1,115 +1,37 @@
 @import "../../vars.css";
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 900px;
-    background: linear-gradient(135deg, #112233, #445566);
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    margin: 20px auto;
-    position: relative;
-    transition: transform 0.3s ease-in-out;
-}
-
-.container:hover {
-    transform: scale(1.02);
-}
-
-.image {
-    width: 50%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.content {
-    flex: 1;
-    padding: 20px;
+  margin-top: 60px;
+  text-align: center;
+  /* You can use your custom colors from :root or vars.css */
+  color: var(--color-text);
 }
 
 .title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: yellow;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  color: #fff; /* White text for the section title */
 }
 
-.description {
-    font-size: 1rem;
-    color: white;
-    margin-top: 8px;
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: 10px;
-    margin-top: 12px;
-    padding: 0;
+.arrow {
+  font-size: 2.5rem;
+  color: #ffd700; /* Yellow arrows */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
-.skill {
-    background: black;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 50px;
-    font-size: 0.9rem;
-}
-
-.links {
-    margin-top: 20px;
-    display: flex;
-    gap: 15px;
-}
-
-.link {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    background: rgb(204, 202, 202);
-    padding: 8px 16px;
-    border-radius: 50px;
-    transition: background 0.3s;
-}
-
-.link:hover {
-    background: white;
-}
-
-.arrowLeft, .arrowRight {
-    background: none;
-    border: none;
-    color: yellow;
-    font-size: 24px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.arrowLeft {
-    left: -40px;
-}
-
-.arrowRight {
-    right: -40px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .image {
-        width: 100%;
-    }
-
-    .arrowLeft, .arrowRight {
-        display: none;
-    }
+.arrow:hover {
+  transform: scale(1.2);
 }
