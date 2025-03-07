@@ -1,36 +1,45 @@
 @import "../../vars.css";
 
 .container {
+  /* Make the section span the full screen width */
+  width: 100vw; 
+  margin: 0 auto;     /* center horizontally */
   margin-top: 76px;
-  margin-left: 13%;
-  margin-right: 10%;
   color: var(--color-text);
+  overflow: hidden;   /* optional: hide any horizontal overflow */
 }
 
 /* Section Title */
 .title {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: bold;
   letter-spacing: 1.75px;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: 24px;
+  text-align: center; /* center title horizontally */
 }
 
 /* Wrapper for arrows and project cards */
 .sliderWrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between; /* space between arrows and cards */
+  width: 100vw;                   /* full screen width */
+  max-width: 100%;               /* ensure no overflow */
   gap: 16px;
   position: relative;
+  margin: 0 auto;
 }
 
 /* The row that shows exactly two ProjectCards side-by-side */
 .projects {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  width: 80vw;             /* use 80% of screen width for the cards */
   gap: 24px;
+  margin: 0 auto;
   transition: transform 0.4s ease-in-out;
 }
 
@@ -69,13 +78,31 @@
 /* Left/right arrow buttons */
 .arrowBtn {
   font-size: 3rem;
-  color: white;
+  color: #ffd700;       /* bright yellow arrow for visibility */
   background: transparent;
   border: none;
   cursor: pointer;
   transition: transform 0.2s;
+  margin: 0 1rem;       /* spacing on each side of the arrow */
 }
 
 .arrowBtn:hover {
   transform: scale(1.1);
+}
+
+/* MEDIA QUERY for smaller screens */
+@media (max-width: 768px) {
+  .sliderWrapper {
+    flex-direction: column;  /* stack arrows & projects vertically if needed */
+    gap: 8px;
+  }
+  .projects {
+    width: 90vw;  
+    flex-direction: column;   /* show one card at a time on narrow screens */
+    gap: 16px;
+  }
+  .arrowBtn {
+    order: -1;               /* optional: arrows appear above/below cards */
+    margin: 0;
+  }
 }
