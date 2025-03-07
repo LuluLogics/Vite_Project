@@ -23,7 +23,7 @@
 /* Big, bold yellow title: “Trips!” style */
 .title {
   font-size: 1.4rem;
-  color: #ffd700;                 /* Bright yellow */
+  color: rgba(20, 50, 108, 0.7);                
   margin: 0 0 8px;
   font-weight: bold;
 }

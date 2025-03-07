@@ -1,6 +1,6 @@
 [
   {
-    "title": "Agentic Corporate Trader (ACT) System",
+    "title": "Agentic Corporate Trader",
     "imageSrc": "projects/Code.jpg",
     "description": "Developed the ACT system, an AI-driven platform for corporate and government entities to manage investments in technology stocks and cryptocurrencies.",
     "skills": ["React", "Express", "Node.js", "MongoDB", "AI Framework"],

@@ -5,25 +5,54 @@
   color: var(--color-text);
   margin-left: 13%;
   margin-right: 10%;
-  
 }
 
+/* Title styling (unchanged) */
 .title {
   font-size: 170%;
   font-weight: bold;
   letter-spacing: 1.75px;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 24px;
 }
 
+/* A wrapper for the arrows + the scrollable container */
+.sliderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px; /* space between arrow buttons and container */
+  position: relative;
+}
+
+/* The horizontal scroll container for project cards */
 .projects {
-  margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: right;
-  justify-content: center;
-  gap: 8%;
-  width: 100%;
+  /* Remove flex-wrap so they stay in one row */
+  flex-wrap: nowrap;
   
+  /* Enable horizontal scrolling */
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth; /* nice smooth scrolling effect */
+
+  /* Optionally control the container width */
+  width: 80vw;
+  gap: 8%;
+}
+
+/* Left/Right arrow buttons */
+.arrowBtn {
+  font-size: 2rem;
+  color: #ffd700; /* bright yellow arrow color */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.arrowBtn:hover {
+  transform: scale(1.1);
 }
