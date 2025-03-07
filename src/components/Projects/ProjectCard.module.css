@@ -14,7 +14,7 @@
 /* The main image: extends across the card’s width with slight rounding */
 .image {
   width: 100%;
-  height: 280px;
+  height: 280%;
   border-radius: 8px;
   object-fit: cover;              /* Ensure the image is cropped nicely */
   margin-bottom: 16px;
