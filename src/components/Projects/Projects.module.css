@@ -34,8 +34,8 @@
 
 /* Left/right arrow buttons */
 .arrowBtn {
-  font-size: 2rem;
-  color: #ffd700; /* bright yellow arrow color */
+  font-size: 7rem;
+  color: white;
   background: transparent;
   border: none;
   cursor: pointer;
