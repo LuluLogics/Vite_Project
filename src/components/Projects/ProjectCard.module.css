@@ -14,10 +14,11 @@
 /* The main image: extends across the card’s width with slight rounding */
 .image {
   width: 100%;
-  height: auto;
+  height: 250px;
   border-radius: 8px;
   object-fit: cover;              /* Ensure the image is cropped nicely */
   margin-bottom: 16px;
+  display: block;
 }
 
 /* Big, bold yellow title: “Trips!” style */
