@@ -1,37 +1,77 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 60px;
-  text-align: center;
-  /* You can use your custom colors from :root or vars.css */
-  color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(20, 50, 108, 0.7) 80%, rgb(97, 94, 94) 100%);
+    box-shadow: 0 16px 14px 0 rgba(20, 50, 108, 0.7);
+    padding: 0p 24px;
+    max-width: 320px;  
+    margin-bottom: 4%;
+}
+
+.image {
+    margin-bottom: 26px;
+    width: 100%;
+    height: 300px;
 }
 
 .title {
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  margin-bottom: 32px;
-  color: #fff; /* White text for the section title */
+    font-size: 110%;
+    font-weight: bold;
+    padding-left: 10px; 
 }
 
-.slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
+.description {
+    margin-top: 6px;
+    font-size: 90%;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
 }
 
-.arrow {
-  font-size: 2.5rem;
-  color: #ffd700; /* Yellow arrows */
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.2s;
+.skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 13px;
+    list-style: none;
+    padding-left: 10px;
 }
 
-.arrow:hover {
-  transform: scale(1.2);
+.skill {
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 100px;
+    background: black;
+    padding: 2px 22px;
+}
+
+.links {
+    width: 100%;
+    margin-top: auto;
+    padding-top: 20px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130%;
+    font-weight: 600;
+    border-radius: 100px;
+    background: rgb(204, 202, 202);
+    padding: 1px 22px;
+    margin-top: 10px;
+    transition: transform 0.2s; /* Smooth transition for the hover effect */
+}
+
+.link:hover {
+    transform: scale(1.1); 
 }
