@@ -4,15 +4,15 @@
     "imageSrc": "projects/ACT.png",
     "description": "AI-driven platform to manage investments in technology stocks & cryptocurrencies.",
     "skills": ["React", "Express", "Node.js", "MongoDB", "AI Framework"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://actproject.netlify.app/",
+    "source": "https://actproject.netlify.app/"
   },
   {
     "title": "Ping Pong | JavaFX",
     "imageSrc": "projects/PONG.png",
     "description": "Classics game with a modern touch",
     "skills": ["React", "MongoDB", "Node", "JavaScript"],
-    "demo": "https://www.example.com",
+    "demo": "https://github.com/LuluLogics/Ping-Pong-JavaFX",
     "source": "https://www.github.com"
   },
   {
@@ -20,16 +20,15 @@
     "imageSrc": "projects/IBF.png",
     "description": "Experience books, seminars, and cultural activities across the world, at your fingertips ",
     "skills": ["Java", "Node.js"],
-    "demo": "https://www.example.com",
+    "demo": "https://actgroupmtu.netlify.app/",
     "source": "https://www.github.com"
   },
-
   {
     "title": "Lulu Rangers",
     "imageSrc": "projects/RANGERS.png",
-    "description": "Manage the worlds ultimate team",
+    "description": "Manage the worlds ultimate team in your hands",
     "skills": ["Java", "Node.js"],
-    "demo": "https://www.example.com",
+    "demo": "https://github.com/LuluLogics/Lulu-Rangers",
     "source": "https://www.github.com"
   },
   {
@@ -37,7 +36,7 @@
     "imageSrc": "projects/MOBILE.png",
     "description": "Agentic Corporate Trader on mobile",
     "skills": ["Java", "Node.js"],
-    "demo": "https://www.example.com",
+    "demo": "https://github.com/LuluLogics/ACT-Mobile",
     "source": "https://www.github.com"
   }
 ]
