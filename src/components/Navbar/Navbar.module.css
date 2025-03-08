@@ -50,7 +50,7 @@
 /* Hover effect - Pop-up text */
 .menuItems a:hover {
   transform: scale(1.05);  
-  color: #ffffff;
+  color: #b4b3b3;
 }
 
 /* Adjust burger menu for 1300px */

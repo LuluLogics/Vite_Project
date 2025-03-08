@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Projects.module.css";
 
 import projects from "../../data/projects.json";
@@ -35,6 +35,15 @@ export const Projects = () => {
     projects[currentIndex],
     projects[(currentIndex + 1) % projects.length]
   ];
+
+  // ⏳ Auto-slide every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextProjects();
+    }, 3000); // Change slides every 5 seconds
+
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, [currentIndex]); // Depend on currentIndex to re-run effect when index changes
 
   return (
     <section className={styles.container} id="projects">
