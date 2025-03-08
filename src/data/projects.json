@@ -8,6 +8,14 @@
     "source": "https://www.github.com"
   },
   {
+    "title": "Ping Pong | JavaFX",
+    "imageSrc": "projects/PONG.png",
+    "description": "Classics game with a modern touch",
+    "skills": ["React", "MongoDB", "Node", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
     "title": "International Book Fair",
     "imageSrc": "projects/IBF.png",
     "description": "Experience books, seminars, and cultural activities across the world, at your fingertips ",
@@ -15,14 +23,7 @@
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
-  {
-    "title": "Hotel Booking Site",
-    "imageSrc": "projects/hotel.jpg",
-    "description": "Developed a responsive and efficient hotel booking application using React, MongoDB, Node.js, and JavaScript. An elegant and efficient way of booking your next stay.",
-    "skills": ["React", "MongoDB", "Node", "JavaScript"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
+
   {
     "title": "E-commerce Platform",
     "imageSrc": "projects/batman.jpg",
