@@ -34,9 +34,9 @@
   {
     "title": "International Book Fair",
     "imageSrc": "skills/PONG.png",
-    "description": "Experience books, seminars, and cultural activities across the world, at your fingertips ",
-    "skills": ["Java", "Node.js"],
-    "demo": "https://actgroupmtu.netlify.app/",
+    "description": "Classics game with a modern touch",
+    "skills": ["React", "MongoDB", "Node", "JavaScript"],
+    "demo": "https://github.com/LuluLogics/Ping-Pong-JavaFX",
     "source": "https://www.github.com"
   },
   {
