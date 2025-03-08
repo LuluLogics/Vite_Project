@@ -13,7 +13,7 @@
 
 .title {
     color: var(--color-text);
-    font-size: 170%;
+    font-size: 1.8rem;
     letter-spacing: 1.75px;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
@@ -57,21 +57,25 @@
     background-position: 100% 0;
     background-size: 500% 100%;
     background-repeat: no-repeat;
-    transition: 0.4s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-size 0.4s;
 }
 
+/* Hover effect: pop up slightly and add shadow */
 .aboutItem:hover {
     background-size: 100%, 100%;
+    transform: scale(1.05);  /* Slightly enlarges the item */
+    box-shadow: 0 8px 18px rgba(255, 255, 255, 0.2);  /* Light glow effect */
 }
 
+
 .aboutItem h3 {
-    font-size: 110%;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .aboutItem p {
-    font-size: 90%;
+    font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
 }
 

@@ -44,14 +44,6 @@
         "imageSrc": "skills/java.png"
       },
       {
-        "title": "C",
-        "imageSrc": "skills/c.png"
-      },
-      {
-        "title": "C++",
-        "imageSrc": "skills/c++.png"
-      },
-      {
         "title": "MySQL",
         "imageSrc": "skills/mysql.png"
       },
@@ -63,6 +55,54 @@
       {
         "title": "Python",
         "imageSrc": "skills/python.png"
+      },
+      {
+        "title": "Arduino",
+        "imageSrc": "skills/arduino.svg"
+      },
+      {
+        "title": "C++",
+        "imageSrc": "skills/cpp.svg"
+      },
+      {
+        "title": "C",
+        "imageSrc": "skills/c.svg"
+      },
+      {
+        "title": "PHP",
+        "imageSrc": "skills/php.svg"
+      },
+      {
+        "title": "Bootstrap",
+        "imageSrc": "skills/bootstrap.svg"
+      },
+      {
+        "title": "Docker",
+        "imageSrc": "skills/docker.svg"
+      },
+      {
+        "title": "RabbitMQ",
+        "imageSrc": "skills/rabbitmq.svg"
+      },
+      {
+        "title": "Kotlin",
+        "imageSrc": "skills/kotlin.svg"
+      },
+      {
+        "title": "Firebase",
+        "imageSrc": "skills/firebase.svg"
+      },
+      {
+        "title": "Linux",
+        "imageSrc": "skills/linux.svg"
+      },
+      {
+        "title": "MacOS",
+        "imageSrc": "skills/mac.svg"
+      },
+      {
+        "title": "Windows",
+        "imageSrc": "skills/windows.svg"
       }
   
   ]

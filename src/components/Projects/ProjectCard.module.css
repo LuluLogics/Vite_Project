@@ -33,13 +33,13 @@
 
 /* Hover effect on the link: scale the image & highlight border */
 .imageLink:hover {
-  transform: scale(1.02);          /* slightly pop up */
+  transform: scale(1.05);          /* slightly pop up */
   border: 2px solid #ffffff;       /* highlight border in bright yellow */
 }
 
 /* Title styling with white border and filled rgba color */
 .title {
-  font-size: 200%;
+  font-size: 24px;
   color: white;  /* Fill color */
   margin: 16px 0 8px;             /* Spacing */
   font-weight: bold;
