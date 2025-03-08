@@ -17,7 +17,7 @@
   },
   {
     "title": "Ping Pong | JavaFX",
-    "imageSrc": "skills/PONG.png",
+    "imageSrc": "skills/PINGPONG.png",
     "description": "Classics game with a modern touch",
     "skills": ["React", "MongoDB", "Node", "JavaScript"],
     "demo": "https://github.com/LuluLogics/Ping-Pong-JavaFX",
@@ -26,6 +26,14 @@
   {
     "title": "International Book Fair",
     "imageSrc": "projects/IBF.png",
+    "description": "Experience books, seminars, and cultural activities across the world, at your fingertips ",
+    "skills": ["Java", "Node.js"],
+    "demo": "https://actgroupmtu.netlify.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "International Book Fair",
+    "imageSrc": "skills/PONG.png",
     "description": "Experience books, seminars, and cultural activities across the world, at your fingertips ",
     "skills": ["Java", "Node.js"],
     "demo": "https://actgroupmtu.netlify.app/",
