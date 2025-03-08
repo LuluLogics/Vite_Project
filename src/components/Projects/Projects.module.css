@@ -28,7 +28,7 @@
   justify-content: space-between; /* space between arrows and cards */
   width: 100vw;                   /* full screen width */
   max-width: 100%;               /* ensure no overflow */
-  gap: 13px;
+  gap: 10px;
   position: relative;
   margin: 0 auto;
 }
@@ -84,11 +84,12 @@
   border: none;
   cursor: pointer;
   transition: transform 0.2s;
-  margin: 0 4rem;       
+  margin: 0 4rem;    
+  padding-bottom: 9%;   
 }
 
 .arrowBtn:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* MEDIA QUERY for smaller screens */

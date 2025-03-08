@@ -40,7 +40,7 @@ export const Projects = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextProjects();
-    }, 3000); // Change slides every 5 seconds
+    }, 5000); // Change slides every 5 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [currentIndex]); // Depend on currentIndex to re-run effect when index changes
