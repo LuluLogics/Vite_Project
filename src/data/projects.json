@@ -25,10 +25,18 @@
   },
 
   {
-    "title": "E-commerce Platform",
-    "imageSrc": "projects/batman.jpg",
-    "description": "Developed a full-stack e-commerce platform allowing users to browse products, add items to cart, and complete secure purchases.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Lulu Rangers",
+    "imageSrc": "projects/RANGERS.png",
+    "description": "Manage the worlds ultimate team",
+    "skills": ["Java", "Node.js"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "ACT Mobile",
+    "imageSrc": "projects/MOBILE.png",
+    "description": "Agentic Corporate Trader on mobile",
+    "skills": ["Java", "Node.js"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
