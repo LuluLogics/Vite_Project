@@ -1,16 +1,16 @@
 [
   {
     "title": "Agentic Corporate Trader",
-    "imageSrc": "projects/Code.jpg",
-    "description": "Developed the ACT system, an AI-driven platform for corporate and government entities to manage investments in technology stocks and cryptocurrencies.",
+    "imageSrc": "projects/ACT.png",
+    "description": "AI-driven platform to manage investments in technology stocks & cryptocurrencies.",
     "skills": ["React", "Express", "Node.js", "MongoDB", "AI Framework"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Ping Pong",
-    "imageSrc": "projects/pong2.png",
-    "description": "Developed a modern version of the classic Ping Pong game, implemented in Java and Node.js.",
+    "title": "International Book Fair",
+    "imageSrc": "projects/IBF.png",
+    "description": "Experience books, seminars, and cultural activities across the world, at your fingertips ",
     "skills": ["Java", "Node.js"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
