@@ -14,34 +14,7 @@ export const About = () => {
             className={styles.aboutImage}
             />
             <ul className={styles.aboutItems}>
-                <li className={styles.aboutItem}>
-                    <img
-                        src={getImageUrl("about/road.png")} 
-                        alt="BikerIcon" 
-                        className={styles.icons} 
-                    />
-                    <div className={styles.aboutImageText}>
-                        <h3>Motorcyle entusiaest</h3>
-                        <p> I live for the thrill of the open road and the roar of the engine. 
-                            Whether carving through winding mountain roads or cruising along scenic coastal highways, 
-                            I find freedom and adventure on two wheels.
-                        </p>
-                    </div>
-                </li>
-                <li className={styles.aboutItem}>
-                    <img 
-                        src={getImageUrl("about/sport.png")} 
-                        alt="SkaterIcon"
-                        className={styles.icons} 
-                        />
-                    <div className={styles.aboutImageText}>
-                        <h3>Skateboard fanetic</h3>
-                        <p>I thrive on the adrenaline of landing new tricks and the creativity 
-                            of crafting unique lines. From local skate parks to urban street spots, 
-                            I embrace the challenge and freedom that skateboarding offers.
-                        </p>
-                    </div>
-                </li>
+
                 <li className={styles.aboutItem}>
                     <img 
                         src={getImageUrl("about/coding.png")} 
@@ -56,6 +29,45 @@ export const About = () => {
                         </p>
                     </div>
                 </li>
+
+                <li className={styles.aboutItem}>
+                    <img
+                        src={getImageUrl("about/travel.png")} 
+                        alt="BikerIcon" 
+                        className={styles.icons} 
+                    />
+                    <div className={styles.aboutImageText}>
+                        <h3>Travel entusiaest</h3>
+                        <p> I find joy in exploring new cultures 
+                            and discovering breathtaking landscapes. Whether wandering through 
+                            bustling city streets or hiking remote mountain trails, I embrace 
+                            every journey as an opportunity to learn & grow.
+                        </p>
+                    </div>
+                </li>
+
+                <li className={styles.aboutItem}>
+                    <img 
+                        src={getImageUrl("about/book.png")} 
+                        alt="Book Icon"
+                        className={styles.icons} 
+                    />
+                    <div className={styles.aboutImageText}>
+                        <h3>Literary Explorer</h3>
+                        <p>
+                            There’s nothing like getting lost in a compelling read, whether at home, 
+                            in a café, or on a long flight to my next destination.  
+                            <br />
+                            <em>"A book can change a man’s life."</em> - Malcolm X   
+                            <img 
+                                src={getImageUrl("about/raised.png")} 
+                                alt="Raised Fist Icon"
+                                className={styles.textIcon} 
+                            />
+                        </p>
+                    </div>
+                </li>
+
             </ul>
         </div>
     </section>

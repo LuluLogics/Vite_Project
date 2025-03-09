@@ -115,4 +115,12 @@
     padding-right: 5%;
 }
 
+.textIcon {
+    width: 1.15em;  
+    height: 1.15em; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align it with text */
+    margin-left: 5px; /* Add space to the left of the image */
+    margin-bottom: 4px;
+}
+
 
