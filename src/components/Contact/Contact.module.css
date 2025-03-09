@@ -64,7 +64,7 @@
 }
 
 /* Underline Effect */
-.link a::after {
+/* .link a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -73,11 +73,13 @@
     height: 2px;
     background-color: azure;
     transition: width 0.3s ease-in-out;
-}
+} */
 
 /* Hover effect - Underline and Color Change */
 .link a:hover {
-    color: #ffd700; /* Bright yellow */
+    color: #b4b3b3;
+    transform: scale(1.02); /* Slightly enlarges the image */
+
 }
 
 .link a:hover::after {

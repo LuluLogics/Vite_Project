@@ -1,107 +1,117 @@
 [
     {
-      "title": "HTML",
+      "title": " ",
       "imageSrc": "skills/html.png"
     },
     {
-      "title": "CSS",
+      "title": " ",
       "imageSrc": "skills/css.png"
     },
     {
-      "title": "Java-script",
+      "title": " ",
       "imageSrc": "skills/java-script.png"
     },
     {
-      "title": "React",
+      "title": " ",
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
+      "title": " ",
       "imageSrc": "skills/node.png"
     },
     {
-      "title": "GraphQL",
+      "title": " ",
       "imageSrc": "skills/graphql.png"
     },
     {
-      "title": "MongoDB",
+      "title": " ",
       "imageSrc": "skills/mongodb.png"
     },
     {
-      "title": "Figma",
+      "title": " ",
       "imageSrc": "skills/figma.png"
     },
     {
-      "title": "Raspberry Pi",
+      "title": " ",
       "imageSrc": "skills/ras-pi.png"
     },
     {
-        "title": "Cisco",
+        "title": " ",
         "imageSrc": "skills/cysco.png"
       },
       {
-        "title": "Java",
+        "title": " ",
         "imageSrc": "skills/java.png"
       },
       {
-        "title": "MySQL",
+        "title": " ",
         "imageSrc": "skills/mysql.png"
       },
       {
-        "title": "postgreSQL",
+        "title": " ",
         "imageSrc": "skills/post.png"
       },
 
       {
-        "title": "Python",
+        "title": " ",
         "imageSrc": "skills/python.png"
       },
       {
-        "title": "Arduino",
+        "title": " ",
         "imageSrc": "skills/arduino.svg"
       },
       {
-        "title": "C++",
+        "title": " ",
         "imageSrc": "skills/cpp.svg"
       },
       {
-        "title": "C",
+        "title": " ",
         "imageSrc": "skills/c.svg"
       },
       {
-        "title": "PHP",
+        "title": " ",
         "imageSrc": "skills/php.svg"
       },
       {
-        "title": "Bootstrap",
+        "title": " ",
         "imageSrc": "skills/bootstrap.svg"
       },
       {
-        "title": "Docker",
+        "title": " ",
         "imageSrc": "skills/docker.svg"
       },
       {
-        "title": "RabbitMQ",
+        "title": " ",
         "imageSrc": "skills/rabbitmq.svg"
       },
       {
-        "title": "Kotlin",
+        "title": " ",
         "imageSrc": "skills/kotlin.svg"
       },
       {
-        "title": "Firebase",
-        "imageSrc": "skills/firebase.svg"
+        "title": " ",
+        "imageSrc": "skills/swift.png"
       },
       {
-        "title": "Linux",
+        "title": " ",
+        "imageSrc": "skills/go.png"
+      },
+      {
+        "title": " ",
+        "imageSrc": "skills/firebase.svg"
+      },
+
+      {
+        "title": " ",
         "imageSrc": "skills/linux.svg"
       },
       {
-        "title": "MacOS",
-        "imageSrc": "skills/mac.svg"
+        "title": " ",
+        "imageSrc": "skills/appl.svg"
       },
+
       {
-        "title": "Windows",
+        "title": " ",
         "imageSrc": "skills/windows.svg"
       }
   
