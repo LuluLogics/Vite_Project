@@ -60,7 +60,7 @@ export const About = () => {
                             <br />
                                 {/* <em>"Once you learn to read, you will be forever free."</em> - Frederick Douglass<img src={getImageUrl("about/raised.png")} alt="Raised Fist Icon" className={styles.textIcon}/>
                             <br /> */}
-                                <em>"A book can change a man’s life."</em> - Malcolm X <img src={getImageUrl("about/raised.png")} alt="Raised Fist Icon" className={styles.textIcon} 
+                                <em>"A book can change a man’s life."</em> - Malcolm X<img src={getImageUrl("about/raised.png")} alt="Raised Fist Icon" className={styles.textIcon} 
                             />
                         </p>
                     </div>
