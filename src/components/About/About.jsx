@@ -58,10 +58,9 @@ export const About = () => {
                             There’s nothing like getting lost in a compelling read, whether at home, 
                             in a café, or on a long flight to my next destination.  
                             <br />
-                                {/* <em>"Once you learn to read, you will be forever free."</em> - Frederick Douglass<img src={getImageUrl("about/raised.png")} alt="Raised Fist Icon" className={styles.textIcon}/>
-                            <br /> */}
-                                <em>"A book can change a man’s life."</em> - Malcolm X<img src={getImageUrl("about/raised.png")} alt="Raised Fist Icon" className={styles.textIcon} 
-                            />
+                                <em>"Once you learn to read, you will be forever free."</em> - Frederick Douglass<img src={getImageUrl("about/raised.png")} alt="Raised Fist Icon" className={styles.textIcon}/>
+                            
+                                {/* <em>"A book can change a man’s life."</em> - Malcolm X<img src={getImageUrl("about/raised.png")} alt="Raised Fist Icon" className={styles.textIcon}/> */}
                         </p>
                     </div>
                 </li>
